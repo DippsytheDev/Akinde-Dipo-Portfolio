@@ -84,11 +84,9 @@ const AboutPage = () => {
 
                 <p className="mb-4">
                   During my time at{" "}
-                  <span className="text-[#FF611D]">
-                    Xown SolutionsIMG_5185.jpeg IMG_5185.jpeg
-                  </span>
-                  , I have had hands-on experience in various technical areas. I
-                  enjoy working on diverse projects that require both{" "}
+                  <span className="text-[#FF611D]">Xown Solutions</span>, I have
+                  had hands-on experience in various technical areas. I enjoy
+                  working on diverse projects that require both{" "}
                   <span className="text-[#FF611D]">creativity</span> and{" "}
                   <span className="text-[#FF611D]">technical expertise</span>.
                 </p>
