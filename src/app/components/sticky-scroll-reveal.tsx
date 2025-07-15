@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useMemo } from "react";
 import { motion } from "motion/react";
 import { cn } from "../lib/utils";
 
@@ -48,21 +48,24 @@ export const StickyScroll = ({
     };
   }, [content]);
 
-  const backgroundColors = [
-    "#333333", // base color
-    "#2e2e2e", // slightly darker
-    "#292929", // slightly darker
-    "#242424", // slightly darker
-    "#1f1f1f", // slightly darker
-    "#1a1a1a", // slightly darker
-    "#151515", // slightly darker
-  ];
+  const backgroundColors = useMemo(
+    () => [
+      "#333333", // base color
+      "#2e2e2e", // slightly darker
+      "#292929", // slightly darker
+      "#242424", // slightly darker
+      "#1f1f1f", // slightly darker
+      "#1a1a1a", // slightly darker
+      "#151515", // slightly darker
+    ],
+    []
+  );
 
   useEffect(() => {
     document.body.style.transition = "background-color 0.5s ease";
     document.body.style.backgroundColor =
       backgroundColors[activeCard % backgroundColors.length];
-  }, [activeCard]);
+  }, [activeCard, backgroundColors]);
 
   const handleClick = (
     event: React.MouseEvent<HTMLAnchorElement>,
