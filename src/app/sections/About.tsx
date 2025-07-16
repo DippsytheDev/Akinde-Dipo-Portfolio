@@ -14,7 +14,7 @@ export const About = () => {
               Latest update:
             </div>
             <div className="flex items-center text-sm md:text-md font-mono">
-              Currently Looking for a Fullstack Developer Role
+              Currently Looking for a Software Developer Roles
             </div>
           </div>
         </div>
