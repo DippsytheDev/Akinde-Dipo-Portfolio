@@ -25,14 +25,6 @@ const ContactPage = () => {
   // Social media share links
   const shareLinks = [
     {
-      name: "Facebook",
-      link: "https://www.facebook.com/sharer/sharer.php?u=https://akindedipo.vercel.app/",
-    },
-    {
-      name: "Twitter",
-      link: "https://twitter.com/intent/tweet?url=https://akindedipo.vercel.app/&text=Check%20out%20this%20amazing%20portfolio!",
-    },
-    {
       name: "LinkedIn",
       link: "https://www.linkedin.com/shareArticle?mini=true&url=https://akindedipo.vercel.app/&title=Check%20out%20this%20amazing%20portfolio!",
     },
