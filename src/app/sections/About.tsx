@@ -14,12 +14,12 @@ export const About = () => {
               Latest update:
             </div>
             <div className="flex items-center text-sm md:text-md font-mono">
-              Currently Looking for a Software Developer Roles
+              Currently Looking for Software Developer Roles
             </div>
           </div>
         </div>
       ),
-    },
+    }, //new work
     {
       title: "2023 - 2024",
       content: (
