@@ -37,7 +37,7 @@ const MakeupWebsiteContent = () => {
       />
       <div className="flex justify-center">
         <a
-          href="https://www.makeupbybims.com"
+          href="https://www.tolabanksbeauty.com"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block mt-6 px-6 py-2 bg-[#FF611D] text-white font-semibold rounded-lg shadow hover:bg-[#e65c1a] transition"
